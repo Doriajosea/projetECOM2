@@ -1,0 +1,27 @@
+body {
+  background-image: url("./acceuil.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login {
+  background-image: url("./login.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.signup {
+  background-image: url("./signup.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.containa {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #799092;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
