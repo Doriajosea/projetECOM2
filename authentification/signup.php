@@ -18,7 +18,7 @@
             </div>
         </nav>
         <div class="containa">
-            <form method="post" action="./affichage.php">
+            <form method="post" action="../vue/affichage.php">
                 Nom :
                 <input type="text" name="nom" required><br><br>
                 Prenom :

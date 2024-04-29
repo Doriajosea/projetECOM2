@@ -12,3 +12,51 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.content {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #323d3e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contente {
+  max-width: 200px;
+  margin: 50px auto;
+  background-color: #0c484e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-container {
+  width: 300px; /* Largeur fixe du conteneur */
+  height: 200px; /* Hauteur fixe du conteneur */
+  overflow: hidden; /* Cache le débordement de l'image */
+}
+img {
+  width: 100%; /* Remplit la largeur du conteneur */
+  height: 100%; /* Remplit la hauteur du conteneur */
+  object-fit: cover; /* Ajuste l'image pour remplir complètement le conteneur tout en conservant les proportions et en coupant le surplus */
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(3, 350px);
+  grid-auto-columns: repeat(3, 350px);
+  gap: 20px;
+}
+
+.card {
+  width: 1130px;
+  border-radius: 20px;
+  background-color: rgb(109, 106, 102);
+}

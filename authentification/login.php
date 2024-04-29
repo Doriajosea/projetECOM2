@@ -18,7 +18,7 @@
 
     <div class="containa">
         <h1>login</h1>
-        <form method="post" action="./affichage.php">
+        <form method="post" action="../vue/affichage.php">
                 Nom d'utilisateur :
                 <input type="text" name="nomUtilisateur" required><br><br>
                 Password :
