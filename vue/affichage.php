@@ -76,9 +76,12 @@ include_once('../panier/connexion.php');
 
     </section>
     <footer>
-    <p>&copy; <?php echo date("Y"); ?> Mon site web. Tous droits réservés.</p>
-    <!-- Vous pouvez ajouter d'autres informations de pied de page ici -->
-</footer>
+    <p>&copy; <?php echo date("Y"); ?> DodoShoes</p>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    </footer>
         
         
     
