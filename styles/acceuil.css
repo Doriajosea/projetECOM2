@@ -1,18 +1,18 @@
 body {
-  background-image: url("./acceuil.jpeg");
+  background-image: url("./images/image.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .login {
-  background-image: url("./login.jpeg");
+  background-image: url("./images/image.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .signup {
-  background-image: url("./signup.jpeg");
+  background-image: url("./images/image.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -9,15 +9,13 @@
   </head>
   <body>
 
-  <?php include "./vue/herder.php"?>
 
-
-  <!-- <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
         <div class="container">
           <center><h1>Bienvenue sur le site DodoShoes :) </h1></center>
         
         </div>
-    </nav> -->
+    </nav>
 
     <div>
       <center><h2>Veuillez entrer dans le site</h2>
@@ -46,11 +44,6 @@
   <?php include "./vue/footer.php"?>
 
 
-  <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-        <div class="container">
-          <center><h1>Bienvenue sur le site DodoShoes :) </h1></center>
-        
-        </div>
     </nav>
   </body>
 </html>

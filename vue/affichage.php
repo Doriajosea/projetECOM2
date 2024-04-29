@@ -17,7 +17,7 @@ include_once('../panier/connexion.php');
     <title>Boutique</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/indes.css">
+    <link rel="stylesheet" href="../styles/affiche.css">
     <script
       src="https://kit.fontawesome.com/cacbcc77eb.js"
       crossorigin="anonymous"
@@ -32,6 +32,7 @@ include_once('../panier/connexion.php');
             /* Autres styles personnalisés pour le conteneur */
         }
     </style>
+    
 
 </head>
 <body>
@@ -74,6 +75,10 @@ include_once('../panier/connexion.php');
         <?php } ?>
 
     </section>
+    <footer>
+    <p>&copy; <?php echo date("Y"); ?> Mon site web. Tous droits réservés.</p>
+    <!-- Vous pouvez ajouter d'autres informations de pied de page ici -->
+</footer>
         
         
     

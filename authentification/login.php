@@ -6,7 +6,31 @@
     <title>Connexion</title>
     <link rel="stylesheet" href="../styles/acceuil.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <style>
+        /* Styles généraux */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Contenu */
+        .content {
+            padding-bottom: 60px; /* Hauteur du footer */
+        }
+        
+        /* Footer */
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        </style>
 </head>
 <body class="login">
 
@@ -29,7 +53,10 @@
             </form>
     </div> 
     <center><button type="button" class="button"><a href="./acceuil.php">Retour a la page d'acceuil</a></button></center>
-   
+    <footer>
+    <p>&copy; <?php echo date("Y"); ?> Mon site web. Tous droits réservés.</p>
+    <!-- Vous pouvez ajouter d'autres informations de pied de page ici -->
+</footer>
 </body>
 </html>
 

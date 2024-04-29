@@ -46,7 +46,7 @@ if (isset($_GET['del'])) {
         </div>
     </nav>
 
-    <section class="contente">
+    <section class="">
     <table class="stripped highlight" border="1">
         <thead class="white">
             <tr>
@@ -80,7 +80,7 @@ if (isset($_GET['del'])) {
                     ?>
                     <tbody class="rgb(168, 169, 158)">
                         <tr>
-                            <td><img src="./images/<?= $produit['img']?>" alt=""></td>
+                            <td><img src="../styles/images/<?= $produit['img']?>" alt=""></td>
                             <td><?= $produit['nom']?></td>
                             <td><?= $produit['prix']?></td>
                             <td><?=$_SESSION['panier'][$produit['id']] ?> </td>
